@@ -12,7 +12,7 @@ import java.util.Date;
 @Builder
 @Data
 @Table(name="employment_information")
-@ApiModel(description= "临平二期---积分商品")
+@ApiModel(description= "shiyan")
 @NoArgsConstructor
 @AllArgsConstructor
 @Accessors(chain = true)
