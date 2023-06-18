@@ -11,11 +11,7 @@ import java.util.List;
 @Service
 public class EmpolymentImpl implements empolymentService{
     private EmploymentMapper employmentMapper;
-    public EmploymentMapper getEmploymentMapper()
-    {
-        return employmentMapper;
-    }
-    public void setEmploymentMapper()
+    public EmpolymentImpl(EmploymentMapper employmentMapper)
     {
         this.employmentMapper=employmentMapper;
     }
